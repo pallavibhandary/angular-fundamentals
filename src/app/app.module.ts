@@ -4,15 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { SuccessComponent } from './success/success.component';
 import { WarningComponent } from './warning/warning.component';
+import { ServerComponent } from './server/server.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     SuccessComponent,
-    WarningComponent
+    WarningComponent,
+    ServerComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
